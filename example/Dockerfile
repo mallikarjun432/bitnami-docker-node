@@ -10,4 +10,4 @@ COPY --from=builder /app /app
 WORKDIR /app
 EXPOSE 3000
 CMD ["npm", "start"]
-CMD npm start
+
